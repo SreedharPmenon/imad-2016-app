@@ -10,6 +10,7 @@ body {
     right:100px;
     top:200px;
     bottom:200px;
+    box-shadow: 10px 10px 20px  #888888;
 }
 
 .text-big {
