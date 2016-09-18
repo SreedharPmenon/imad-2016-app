@@ -1,27 +1,10 @@
-body {
-    font-family: sans-serif;
-    background-color: lightgrey;
-    margin-top: 75px;
+.profile{
+    
+    
+    font-family:verdana;
+	color:white;
+	
+	left: 200px;
+	right: 200px;
+	box-shadow: 10px 10px 20px  #888888;
 }
-
-.center {
-    text-align: center;
-    left: 100px;
-    right:100px;
-    top:200px;
-    bottom:200px;
-    box-shadow: 10px 10px 20px  #888888;
-}
-
-.text-big {
-    font-size: 300%;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.img-medium {
-    height: 200px;
-}
-
