@@ -7,7 +7,7 @@
 	box-shadow: 30px 30px 30px  #C02425;
 	margin:250px 150px 250px 440px;
 	background:linear-gradient(to right,#C02425,#F0CB35);
-	border-left:1px solid #C02425;
+
 	border-radius: 6px;
 	position:relative;
 }
@@ -56,16 +56,13 @@ background-size: 100%;
     border-radius: 4px;
     text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
 }
-@font-face {
-    font-family: myFirstFont;
-    src: url(sansation_light.woff);
-}
+
 #heading{
 	position:relative;
 	color:black;
 	font-family: verdana;
 	box-shadow: 5px 10px 10px  #C02425;
-	 font-family: myFirstFont;
+	 
 	  text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
 
 	
