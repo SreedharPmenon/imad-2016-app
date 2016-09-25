@@ -4,7 +4,77 @@
 	text-align:center;
 	height:400px;
 	width:400px;
+	box-shadow: 30px 30px 30px  #C02425;
+	margin:250px 150px 250px 440px;
+	background:linear-gradient(to right,#C02425,#F0CB35);
+	border-left:1px solid #C02425;
+	border-radius: 6px;
+	position:relative;
+}
+body{
+background: linear-gradient(to bottom,#C02425,#F0CB35);
+background-size: 100%;
+}
+.unorderedlist{
+	position:absolute;
+	margin-top: 35px;
+	margin-left:30px;
+    
+}
+
+
+#first{
+	text-align: left;
+
+	margin-bottom: 5px;
+	padding-left:10px;
+	background:linear-gradient(to right,#C02425,#F0CB35);
+	border-radius: 4px;
+	text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
+}
+#second{
+	text-align: left;
+	background:linear-gradient(to right,#C02425,#F0CB35);
+	margin-bottom: 5px;
+	padding-left:10px;
+	border-radius: 4px;
+	text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
+      }
+#third{
+	text-align: left;
+	background:linear-gradient(to right,#C02425,#F0CB35);
+	margin-bottom: 5px;
+	padding-left:10px;
+	border-radius: 4px;
+	text-shadow: -1px 0 #C02425, 0 1px #C02425, 1px 0 #C02425, 0 -1px #C02425;
+}
+#fourth{
+	text-align: left;
+    background:linear-gradient(to right,#C02425,#F0CB35);
+    margin-bottom: 5px;
+    padding-left:10px;
+    border-radius: 4px;
+    text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
+}
+@font-face {
+    font-family: myFirstFont;
+    src: url(sansation_light.woff);
+}
+#heading{
+	position:relative;
+	color:black;
+	font-family: verdana;
+	box-shadow: 5px 10px 10px  #C02425;
+	 font-family: myFirstFont;
+	  text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
+
 	
-	box-shadow: 20px 20px 10px  #888888;
-	margin:250px 150px 250px 550px;
+}
+#subheading{
+	position:relative;
+	color:black;
+	box-shadow:5px 10px 10px  #C02425;
+	 font-family: myFirstFont;
+	 
+	 text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
 }
