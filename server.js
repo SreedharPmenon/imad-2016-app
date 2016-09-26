@@ -36,7 +36,7 @@ var htmltemplate=`<html>
     </head>
  <body>
    <center>
-     <div>
+     <div class="container">
      <a href="/">
          HOME
      </a>  
