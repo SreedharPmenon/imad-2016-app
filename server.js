@@ -35,6 +35,7 @@ var htmltemplate=`<html>
         </title>
     </head>
  <body>
+   <center>
      <div>
      <a href="/">
          HOME
@@ -50,6 +51,7 @@ var htmltemplate=`<html>
         ${content}
         
     </div>
+  <center>
 </body>
     
 </html>
