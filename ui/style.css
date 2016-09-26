@@ -75,3 +75,7 @@ background-size: 100%;
 	 
 	 text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
 }
+.container{
+    background:white;
+}
+}
