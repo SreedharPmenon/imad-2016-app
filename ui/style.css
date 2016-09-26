@@ -12,7 +12,7 @@
 	position:relative;
 }
 body{
-background: linear-gradient(to bottom,#C02425,#F0CB35);
+
 background-size: 100%;
 }
 .unorderedlist{
@@ -76,5 +76,6 @@ background-size: 100%;
 	 text-shadow: -1px 0 #C02425, 0 1px #C02425 , 1px 0 #C02425, 0 -1px #C02425;
 }
 .container{
-    background:white;
+    background: rgba(244, 3, 66, 0.18);
+    margin-top:100px;
 }
