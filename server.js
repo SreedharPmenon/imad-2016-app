@@ -4,6 +4,13 @@ var path = require('path');
 
 var app = express();
 app.use(morgan('combined'));
+var names=[];
+app.get('/submit-button',function(req,res){
+var name = req.query.name;
+names.push(name);
+res.send(JSON.stringify(names));
+
+});
 var article_one={
    title:'article-one',
    heading:'sreedhar p menon',
@@ -80,11 +87,18 @@ app.get('/ui/main.js',function(req,res){
 app.get('/article-one',function(req,res){
     res.send(createTemplate(article_one));
 });
+var counter=0;
 app.get('/counter',function(req,res){
-   counter = counter + 1;
-   res.send(counter.toString());
+counter= counter+1;
+res.send(counter.toString());
 });
+app.get('/article-two',function(req,res){
+    res.send('this is article two');
+});
+
 var port = 8080; // Use 8080 for local development because you might already have apache running on 80
 app.listen(8080, function () {
   console.log(`IMAD course app listening on port ${port}!`);
 });
+
+
