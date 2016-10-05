@@ -18,7 +18,8 @@ request.send(null);
  
      };
 var submitbutton = document.getElementById('sbt_btn');
-submitbutton.onclick = function(){
+submitbutton.onclick = change;
+window.onload = function change(){
 
  var request = new XMLHttpRequest();
      request.onreadystatechange=function(){
